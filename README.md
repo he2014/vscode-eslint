@@ -49,8 +49,10 @@ If you want to enable autoFix for the new languages, you should enable it yourse
 
 # 1、需要安装插件：
 
-npm i -g standard
-npm i -g eslint-plugin-html@3.2.2 此处使用是 3x 版本
+npm i -g standard <br />
+
+npm i -g eslint-plugin-html@3.2.2 此处使用是 3x 版本 <br />
+
 npm i -g eslint 或者 vscode 安装 eslint
 
 # 2 、vscode setting 设置：
@@ -77,11 +79,10 @@ npm i -g eslint 或者 vscode 安装 eslint
 
 # 3、vscode 相关插件 Prettier and eslint 格式化代码：
 
-ESLint (如果全局安装了,vscode 可以不安装)
-Prettier formatter
+ESLint (如果全局安装了,vscode 可以不安装) <br />
+Prettier formatter <br />
 Vetur
-
-# 4 格式化代码相关设置
+#4 格式化代码相关设置
 
 ```json
 {
@@ -131,6 +132,4 @@ module.exports = {
     parser: 'babel-eslint'
   }
   ```
-
-# vscode-eslint
 ````
