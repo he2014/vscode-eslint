@@ -82,7 +82,8 @@ npm i -g eslint 或者 vscode 安装 eslint
 ESLint (如果全局安装了,vscode 可以不安装) <br />
 Prettier formatter <br />
 Vetur
-#4 格式化代码相关设置
+
+# 4、 格式化代码相关设置
 
 ```json
 {
@@ -105,7 +106,7 @@ Vetur
 }
 ```
 
-# 5 .eslintrc.js 相关
+# 5、 .eslintrc.js 相关
 
 项目根目录下创建 .eslintrc.js
 
